@@ -5,4 +5,8 @@ app.get('/', function (req, res) {
   res.send('Helloo World')
 })
 
+app.get('/oi', function(req, res){
+   res.send('Olá mundo')
+})
+
 app.listen(3000)
